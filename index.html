@@ -16,7 +16,7 @@
     <h1>Formulario de Registro</h1>
     <h3>Datos del representante de la entidad postulante</h3>
     <form class="container left" id="container" action="index.html" method="post">
-      <div class="field">
+      <div class="field left">
         <label for="apellidos">Apellidos</label>
         <input type="text" name="apellidos" value="">
       </div>
@@ -29,9 +29,14 @@
         <input type="date" name="nacimiento" value="">
       </div>
       <div class="field right">
-        <label for="edad">Edad</label>
-        <input type="number" name="nacimiento" value="">
+        <label for="edad">Edad</label
+          <select name="edad" id="edad"></select>
       </div>
+      <div class="field left">
+        <label for="region-nacimiento">Region de nacimiento</label>
+        <select name="region-nacimiento" id="region-nacimiento"></select>
+      </div>
+
     </form>
   </section>
   <footer></footer>

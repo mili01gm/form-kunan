@@ -11,6 +11,7 @@ Letra : Raleway
   color: #707274;
   font-weight: lighter;
   font-stretch: condensed;
+  overflow: auto;
 }
 h1, h2, h3, h4, h5, h6 {
   color: black;
@@ -25,12 +26,13 @@ label, input {
 }
 input {
   width: 80%;
-  height: 21px;
+  height: 28px;
   max-height: 100%;
   border-top: none;
   border-left: none;
   border-right: none;
   border-bottom: 1px solid #b5b6b7;
+  font-size: 1.2vw;
 }
 input:focus {
   outline: none;
@@ -46,7 +48,8 @@ span {
   float: right;
 }
 #principal {
-  margin: 10% 15%;
+  margin: 10% 15% 20px 15%;
+  padding-bottom: 10%;
 }
 #container {
   width: 100%;
@@ -54,8 +57,17 @@ span {
   padding: 0;
 }
 .field {
-  display: inline-block;
   width: 45%;
   padding: 0;
   margin: 1% 0;
+}
+
+footer {
+  position: absolute;
+  left: 0;
+  background-color: #3E3F40;
+  color: white;
+  width: 100%;
+  height: 100px;
+  max-height: 100%;
 }
