@@ -11,7 +11,6 @@ function newOption(elem){
   return option;
 }
 
-
 window.addEventListener("load",function(){
   var sectionEdad = edad.forEach(function(e){
     var option = document.createElement("option");
@@ -21,4 +20,4 @@ window.addEventListener("load",function(){
     document.getElementById("edad").appendChild(newOption(e));
   });
   return sectionEdad;
-})
+});

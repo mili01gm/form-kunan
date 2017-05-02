@@ -81,3 +81,12 @@ footer {
   height: 100px;
   max-height: 100%;
 }
+#options-footer {
+  display: inline-block;
+  color: #b5b6b7;
+}
+
+#socials-footer {
+  display: inline-block;
+  color: #b5b6b7;
+}
